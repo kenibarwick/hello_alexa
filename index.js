@@ -6,7 +6,7 @@ module.change_code = 1;
 // Define an alexa-app
 var app = new alexa.app('hello_world');
 app.launch(function(req, res) {
-  res.say("Hello World!!");
+  res.say("Hello Alexa!!");
 });
 
 app.intent('NameIntent', {
